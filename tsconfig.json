@@ -17,6 +17,8 @@
     "skipLibCheck": true,
     "outDir": "dist",
     "declaration": true,
+    "declarationDir": "dist",
+    "typeRoots": ["node_modules/@types"],
     "jsx": "preserve",
     "jsxImportSource": "solid-js"
   },

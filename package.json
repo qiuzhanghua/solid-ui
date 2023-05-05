@@ -8,9 +8,9 @@
   ],
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.es.js",
-  "types": "./index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
-    "types": "./index.d.ts",
+    "types": "./dist/index.d.ts",
     "import": "./dist/index.es.js",
     "require": "./dist/index.umd.cjs"
   },
@@ -47,7 +47,6 @@
     "vite": "^4.3.4",
     "vite-plugin-solid": "^2.7.0",
     "vitest": "^0.31.0"
-
   },
   "dependencies": {
     "solid-js": "^1.7.4"
