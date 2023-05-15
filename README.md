@@ -16,6 +16,11 @@ pnpm install
 pnpm build
 ```
 
+## Add .d.ts (optional)
+```bash
+pnpm dts
+```
+
 ## Dev 
 ```bash
 pnpm dev
